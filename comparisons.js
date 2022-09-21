@@ -18,29 +18,29 @@ var numberDogs = 0
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
-// this should log: "Is numberTeachers greater than numberStudents?" false
+// this should log: "Is numberTeachers greater than numberStudents?" false;
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-
+console.log("is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
-
+console.log("is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log("is numberTeachers not equal to numberStudents?", numberTeachers  !== numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-
+console.log("is numberStudents greather than or equal to 20",  numberStudents >=20);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-
+console.log("is numberStudents greater than or equal to 21?", numberStudents >=21);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-
+console.log("is numberStudents less than or equal to 20?", numberStudents <=20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("is numberStudents less than or equal to 21?", numberStudents <=21);
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -53,21 +53,22 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+//The statement will return whether 4 is less than 9.
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-
+// This statement will return whether 4 is greather than the number [of] books.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// This statement will return that the number friends is larger than the number siblings.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.
-
+// This statement will return that the number attendees is not equal to the number meals.
 
 // #-------------------
 // PART 3: Logical Operators
