@@ -27,7 +27,14 @@ if (weather === "sunny") {
 
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
+name = "Blanche"
 
+if (name === "Adina"){
+  console.log("Hey best friend!")
+}
+else if (name === "Blanche"){
+  console.log("Hello, me.");
+}
 
 ##################
 // Using the numQuarters variable defined below, determine
