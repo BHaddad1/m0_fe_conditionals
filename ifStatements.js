@@ -68,7 +68,7 @@ else {
 var cupsOfFlour = 1;
 var hasSauce = true;
 
-if (cupsOfFlour >2 && hasSauce = true) {
+if (cupsOfFlour >2 && hasSauce ==== true) {
   console.log("I have the ingredients to make a pizza!");
 }
 else {
