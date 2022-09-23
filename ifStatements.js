@@ -36,7 +36,7 @@ else if (name === "Blanche"){
   console.log("Hello, me.");
 }
 
-##################
+//##################
 // Using the numQuarters variable defined below, determine
 // if you have enough money to buy a gumball. A gumball costs
 // two quarters.
@@ -75,7 +75,7 @@ else {
 var cupsOfFlour = 1;
 var hasSauce = true;
 
-if (cupsOfFlour >2 && hasSauce ==== true) {
+if (cupsOfFlour >2 && hasSauce === true) {
   console.log("I have the ingredients to make a pizza!");
 }
 else {
