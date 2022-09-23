@@ -11,7 +11,8 @@ console.log("You enter a dark room with two doors. Do you go through #1 or #2?")
 
 if (doorChoice === 1) {
   bearClothing = "hat";
-} else {
+}
+else {
   bearClothing = "scarf";
 }
 

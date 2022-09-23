@@ -19,7 +19,7 @@ var numberDogs = 0
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false;
-
+console.log("Is the number of teacheers equal to the number of students?", numberTeachers > numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
 console.log("is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
@@ -103,4 +103,4 @@ console.log(lovesToPlay && age);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
 // The final line of cose came back as 1, because we didn't establish a variable
-// to determine a puppy. 
+// to determine a puppy.
