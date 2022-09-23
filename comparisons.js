@@ -42,6 +42,19 @@ console.log("is numberStudents less than or equal to 20?", numberStudents <=20);
 // this should log: true
 console.log("is numberStudents less than or equal to 21?", numberStudents <=21);
 
+
+
+var numberCats = 5
+var numberDogs1 = 2
+
+console.log("Is the number of cats equal to the number of dogs?", numberCats === numberDogs1);
+
+console.log("Is the number of cats greather than the number of dogs?", numberCats > numberDogs1);
+
+console.log("Is the number of dogs greater than the number of cats in our friend group?", numberDogs > numberCats);
+
+
+
 // #-------------------
 // PART 2: Articulating what you are doing
 // #-------------------
