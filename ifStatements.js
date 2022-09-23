@@ -78,6 +78,18 @@ var hasSauce = true;
 if (cupsOfFlour >2 && hasSauce === true) {
   console.log("I have the ingredients to make a pizza!");
 }
+else if (cupsOfFlour === 1 && hasSauce === true){
+  console.log("I don't have the ingredients to make a pizza");
+}
+else if (cupsOfFlour === 5 && hasSauce === false){
+  console.log("I don't have the ingredients to make a pizza. Sad face.");
+}
+else if (cupsOfFlour === 2 && hasSauce === true){
+  console.log("I can make the pizza!");
+}
+else if (cupsOfFlour === 3 && hasSauce === true){
+  console.log("I can make the pizza!");
+}
 else {
   console.log("I don't have the ingredients to make a pizza.");
 }
